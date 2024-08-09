@@ -11,7 +11,8 @@ sudo docker pull kongrong25/5glog_grafana:grafana
 sudo docker pull kongrong25/5glog_grafana:mysql_grafana  
 ```
 ## 下載docker-compose.yml  
-在該目錄  
+## cd 至該目錄
+
 ```bash
 sudo docker-compose up -d  
 sudo docker exec -it my_grafana_mysql /bin/bash  
