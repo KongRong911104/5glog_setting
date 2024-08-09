@@ -21,7 +21,7 @@ exit
 ```
 # Grafana
 ## 開啟瀏覽器  
-[localhost:3003](<http://localhost:3003/>)
+[該主機(宿主)的ip:3003](<http://該主機(宿主)的ip:3003/>)
 * 帳號:admin  
 * 密碼:admin
 
