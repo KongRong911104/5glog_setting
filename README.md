@@ -34,5 +34,5 @@ exit
 
 滑到底部點擊**Save & test**  
 
-點擊左側**open menu > Dashboards**
+點擊左側**open menu > Dashboards**  
 點擊畫面中間的**5g_log**  
