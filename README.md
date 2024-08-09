@@ -1,6 +1,6 @@
 先   
 sudo docker pull kongrong25/5glog_grafana:grafana  
-sudo docker pull kongrong25/5glog_grafana:grafana_mysql   
+sudo docker pull kongrong25/5glog_grafana:mysql_grafana  
 
 下載docker-compose.yml  
 在該目錄  
