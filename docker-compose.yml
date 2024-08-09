@@ -2,12 +2,12 @@ version: '3'
 
 services:
   mysql:
-    image: 5g_log_mysql:0.2  # 使用您指定的镜像
+    image: 5g_log_mysql:0.2
     container_name: test2-mysql
     environment:
       - MYSQL_ROOT_PASSWORD=1235
     ports:
-      - "3309:3306"  # 映射宿主机端口 3009 到容器的 3306 端口
+      - "3309:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
@@ -18,7 +18,7 @@ services:
     image: grafana/grafana-enterprise
     container_name: test2-grafana
     ports:
-      - "3003:3000"  # 映射宿主机端口 3002 到容器的 3000 端口
+      - "3003:3000"
     environment:
       - GF_SECURITY_ADMIN_USER=admin
       - GF_SECURITY_ADMIN_PASSWORD=admin
