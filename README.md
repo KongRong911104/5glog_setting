@@ -15,5 +15,5 @@ localhost:3003
 往下滑找到Host URL *  
 將localhost改成該主機(宿主)的ip  
 滑到底部點擊Save & test  
-
-
+左側open menu > Dashboards
+點擊畫面中間的5g_log  
