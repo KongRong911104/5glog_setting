@@ -2,8 +2,8 @@ version: '3'
 
 services:
   mysql:
-    image: 5g_log_mysql:0.2
-    container_name: test2-mysql
+    image: kongrong25/5glog_grafana:grafana_mysql
+    container_name: my_grafana_mysql
     environment:
       - MYSQL_ROOT_PASSWORD=1235
     ports:
@@ -15,8 +15,8 @@ services:
         ipv4_address: "192.168.11.10"
 
   grafana:
-    image: grafana/grafana-enterprise
-    container_name: test2-grafana
+    image: kongrong25/5glog_grafana:grafana
+    container_name: my_grafana
     ports:
       - "3003:3000"
     environment:
