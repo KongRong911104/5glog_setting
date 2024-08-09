@@ -29,7 +29,10 @@ exit
 左側**open menu > Connections > Data sources**  
 點擊**mysql**  
 往下滑找到Host URL *  
-該主機(宿主)的ip:3306  
+修改為  
+**該主機(宿主)的ip:3306**  
+
 滑到底部點擊**Save & test**  
-左側**open menu > Dashboards**
+
+點擊左側**open menu > Dashboards**
 點擊畫面中間的**5g_log**  
