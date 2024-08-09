@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mysql:
-    image: kongrong25/5glog_grafana:grafana_mysql
+    image: kongrong25/5glog_grafana:mysql_grafana
     container_name: my_grafana_mysql
     environment:
       - MYSQL_ROOT_PASSWORD=1235
