@@ -15,9 +15,6 @@ sudo docker pull kongrong25/5glog_grafana:mysql_grafana
 
 ```bash
 sudo docker-compose up -d  
-sudo docker exec -it my_grafana_mysql /bin/bash  
-mysql -u root -p1235 < /docker-entrypoint-initdb.d/5g.sql  
-exit
 ```
 # Grafana
 ## 開啟瀏覽器  
@@ -33,6 +30,11 @@ exit
 **該主機(宿主)的ip:3306**  
 
 滑到底部點擊**Save & test**  
-
+**若出現錯誤**
+```bash  
+sudo docker exec -it my_grafana_mysql /bin/bash  
+mysql -u root -p1235 < /docker-entrypoint-initdb.d/5g.sql  
+exit
+```  
 點擊左側**open menu > Dashboards**  
 點擊畫面中間的**5g_log**  
