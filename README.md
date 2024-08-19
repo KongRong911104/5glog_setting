@@ -15,7 +15,7 @@ cd ./5glog_setting
 
 ## 使用以下命令pull所需的 Docker 镜像：
 ```bash
-sudo docker pull kongrong25/5g_log_grafana:1.1
+sudo docker pull kongrong25/5g_log_grafana:1.2
 sudo docker pull kongrong25/5g_log_mysql:1.0
 sudo docker-compose up -d  
 ```
