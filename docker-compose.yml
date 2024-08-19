@@ -2,7 +2,7 @@ version: '3'
 
 services:
   mysql:
-    image: docker pull kongrong25/5g_log_mysql:1.0
+    image: kongrong25/5g_log_mysql:1.0
     container_name: my_grafana_mysql
     environment:
       - MYSQL_ROOT_PASSWORD=1235
