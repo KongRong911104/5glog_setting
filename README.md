@@ -5,8 +5,13 @@ sudo apt update
 sudo apt install -y docker docker-compose
 ```
 ##  下載docker-compose.yml
-
+```bash
+git clone https://github.com/KongRong911104/5glog_setting.git
+```
 ## cd 至該目錄  
+```bash
+cd ./5glog_setting
+```
 
 ## 使用以下命令pull所需的 Docker 镜像：
 ```bash
