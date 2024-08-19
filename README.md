@@ -3,8 +3,8 @@
 ```bash
 sudo apt update
 sudo apt install -y docker docker-compose
-```##  
-下載docker-compose.yml
+```
+##  下載docker-compose.yml
 
 ## cd 至該目錄  
 
