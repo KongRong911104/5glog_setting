@@ -20,24 +20,11 @@ sudo docker pull kongrong25/5glog_grafana:mysql_grafana
 sudo docker-compose up -d  
 ```
 # Grafana
-## 開啟瀏覽器  
+### 開啟瀏覽器  
 [http://該主機(宿主)的ip:3003](<http://該主機(宿主)的ip:3003/>)
 * 帳號:admin  
 * 密碼:admin
 
-選擇skip  
-左側**open menu > Connections > Data sources**  
-點擊**mysql**  
-往下滑找到Host URL *  
-修改為  
-**該主機(宿主)的ip:3306**  
 
-滑到底部點擊**Save & test**  
-**若出現錯誤**
-```bash  
-sudo docker exec -it my_grafana_mysql /bin/bash  
-mysql -u root -p1235 < /docker-entrypoint-initdb.d/5g.sql  
-exit
-```  
 點擊左側**open menu > Dashboards**  
 點擊畫面中間的**5g_log**  
