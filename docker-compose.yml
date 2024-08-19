@@ -6,8 +6,6 @@ services:
     container_name: my_grafana_mysql
     environment:
       - MYSQL_ROOT_PASSWORD=1235
-    ports:
-      - "3309:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     networks:
