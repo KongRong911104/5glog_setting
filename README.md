@@ -19,18 +19,12 @@ sudo docker-compose up -d
 ```
 # Grafana
 ### 開啟瀏覽器  
-[http://該主機(宿主)的ip:3003](<http://該主機(宿主)的ip:3003/>)
+[http://該主機(宿主)的ip:3003](<http://該主機(宿主)的ip:3003/>)  
+登入  
 * 帳號:admin  
 * 密碼:admin  
 
 選擇skip
-左側open menu > Connections > Data sources  
-點擊mysql  
-往下滑找到Host URL *  
-修改為  
-192.168.11.10:3306  
-
-滑到底部點擊Save & test  
 
 點擊左側**open menu > Dashboards**  
 點擊畫面中間的**5g_log**  
