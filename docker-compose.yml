@@ -27,6 +27,16 @@ services:
     networks:
       grafana-net:
         ipv4_address: "192.168.11.11"
+  httpd:
+    image: kongrong25/5g_log_httpd:1.0
+    container_name: my_httpd
+    depends_on:
+      - grafana
+    ports:
+      - "8088:80"
+    networks:
+      grafana-net:
+        ipv4_address: "192.168.11.12"
 volumes:
   mysql_data:
   grafana_data:
